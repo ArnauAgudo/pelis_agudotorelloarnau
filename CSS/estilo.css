@@ -1,0 +1,80 @@
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#menuSuperior nav ul{
+    display: flex; /*pone items de menu en horizontal*/
+    font-size: 30px;
+    float: right;
+}
+
+#menuSuperior nav ul li a{ 
+    text-decoration: none; /*quita subrayado*/
+    color: rgb(255, 255, 255);/*color enlace*/
+}
+
+#menuSuperior nav ul li{ 
+    list-style: none; /*quita puntitos*/
+    padding: 20px; /*Relleno a lis li*/
+}
+
+#filaLogo div img{
+    display: flex; /*pone items de menu en horizontal*/
+    justify-content: space-between;
+    float: left;
+    height: 300px;
+}
+
+#logoPlataformas ul{
+    display: flex;
+    justify-content: center;
+}
+
+#marcas img{
+height: 500px;
+}
+
+#marcas ul{
+    display: flex;
+    justify-content: center;
+}
+
+#logoPlataformas ul{
+display: flex;
+}
+
+#logoPlataformas img{
+    height: 500px;
+}
+
+#terror ul{
+    display: flex;
+    justify-content: space-between;
+}
+#terror img{
+    height: 1000px;
+    width: 700px;
+}
+
+#comedia ul{
+    display: flex;
+    justify-content: space-between;
+}
+#comedia img{
+    height: 1000px;
+    width: 700px;
+}
+
+#accion ul{
+    display: flex;
+    justify-content: space-between;
+}
+#accion img{
+    height: 1000px;
+    width: 700px;
+}
